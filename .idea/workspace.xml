@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="56c3732a-e271-4792-88c6-5e2fcc2ac249" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/groundzero/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/groundzero/templates/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mywebsite/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/mywebsite/settings.py" afterDir="false" />
-    </list>
+    <list default="true" id="56c3732a-e271-4792-88c6-5e2fcc2ac249" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,13 +47,13 @@
           <entry key="Python Console" value="9" />
           <entry key="html" value="4557" />
           <entry key="py" value="617" />
-          <entry key="txt" value="19" />
+          <entry key="txt" value="196" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="HTML" value="4557" />
-          <entry key="PLAIN_TEXT" value="19" />
+          <entry key="PLAIN_TEXT" value="196" />
           <entry key="Python" value="626" />
         </counts>
       </usages-collector>
@@ -94,8 +90,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Dockerfile">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" selection-start-line="7" selection-end-line="7" />
+            <state relative-caret-position="240">
+              <caret line="16" column="30" lean-forward="true" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -199,6 +195,7 @@
     <property name="TF_FMT" value="false" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="yaml" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RunDashboard">
@@ -231,7 +228,14 @@
       <option name="project" value="LOCAL" />
       <updated>1550098922306</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Using Docker to create an image of my website to run in Kubernetes. Added the addition files needed for this.&#10;&#10;*Dockerfile&#10;*docker-compose.yml&#10;*requirements.txt">
+      <created>1551373600492</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1551373600492</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TodoView">
@@ -245,7 +249,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24947146" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -272,7 +275,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="small text changes" />
-    <option name="LAST_COMMIT_MESSAGE" value="small text changes" />
+    <MESSAGE value="Using Docker to create an image of my website to run in Kubernetes. Added the addition files needed for this.&#10;&#10;*Dockerfile&#10;*docker-compose.yml&#10;*requirements.txt" />
+    <option name="LAST_COMMIT_MESSAGE" value="Using Docker to create an image of my website to run in Kubernetes. Added the addition files needed for this.&#10;&#10;*Dockerfile&#10;*docker-compose.yml&#10;*requirements.txt" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/groundzero/urls.py">
@@ -337,8 +341,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Dockerfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        <state relative-caret-position="240">
+          <caret line="16" column="30" lean-forward="true" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
         </state>
       </provider>
     </entry>
