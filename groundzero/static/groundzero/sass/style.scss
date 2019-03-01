@@ -189,7 +189,7 @@ figure {
 	position: fixed;
 	overflow-y: scroll;
 	z-index: 1001;
-	background: $brand-gray;
+	background: #eab252;
 	@include transition(.5s);
 
 	@media screen and (max-width: $screen-sm) {
