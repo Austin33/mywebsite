@@ -11,22 +11,27 @@ https://docs.djangoproject.com/en/2.1/ref/settings/
 """
 
 import os
+import dotenv
+BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+dontenv_file = os.path.join(BASE_DIR, ".env")
+if os.path.isfile(dontenv_file):
+    dotenv.load_dotenv(dontenv_file)
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
-BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+
 
 
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/2.1/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = '96+0gfch9pw_b=2itxm)(dmvhm=-5%s&gn8rxsua-qeyk&3%r!'
+SECRET_KEY = os.environ['SECRET_KEY']
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = [
-    '127.0.0.1'
+    '*'
 ]
 
 
@@ -57,7 +62,7 @@ ROOT_URLCONF = 'mywebsite.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': ['groundzero/templates'],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -120,10 +125,10 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/2.1/howto/static-files/
 
-STATIC_URL = '/static/'
+STATIC_URL = 'groundzero/static/'
 
 STATICFILES_DIRS = [
-    os.path.join(BASE_DIR, "static"),
+    os.path.join(BASE_DIR, "groundzero/static"),
 
 
 

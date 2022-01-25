@@ -9,4 +9,5 @@
 # groundzero/views.py: 1,2
 # mywebsite/urls.py: 17,18,19
 # mywebsite/wsgi.py: 12
-django == 2.1.7
+django == 4.0.1
+python-dotenv~=0.19.2

@@ -1,7 +1,7 @@
-from django.conf.urls import url
+from django.urls import path
 from groundzero import views
 
 
 urlpatterns = [
-    url(r'^$', views.HomePageView.as_view()),
+    path(r'', views.HomePageView.as_view()),
 ]
