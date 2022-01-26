@@ -10,7 +10,7 @@ data "aws_availability_zones" "all" {}
 
 variable "server_port" {
   description = "The port the server will use for HTTP requests"
-  default = 8080
+  default = 8000
 }
 
 resource "aws_launch_configuration" "webservgroup1" {
@@ -79,9 +79,9 @@ resource "aws_security_group" "elb" {
   }
 
   ingress {
-    from_port = 80
+    from_port = 8000
     protocol = "tcp"
-    to_port = 80
+    to_port = 8000
     cidr_blocks = ["0.0.0.0/0"]
   }
 }
@@ -93,8 +93,9 @@ resource "aws_instance" "webserv1" {
 
   user_data = <<-EOF
               #!/bin/bash
-              echo "Hello, World" > index.html
-              nohup busybox httpd -f -p 8080 &
+              git clone https://github.com/Austin33/mywebsite.git
+              cd mywebsite
+              docker-compose.yml up -d
               EOF
 
   vpc_security_group_ids = ["${aws_security_group.instance.id}"]
