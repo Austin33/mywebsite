@@ -1,20 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="56c3732a-e271-4792-88c6-5e2fcc2ac249" name="Default Changelist" comment="More final touches to the site. Almost ready for deployment.">
-      <change afterPath="$PROJECT_DIR$/terraformdeployment.tf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/mywebsite.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/mywebsite.iml" afterDir="false" />
+    <list default="true" id="56c3732a-e271-4792-88c6-5e2fcc2ac249" name="Default Changelist" comment="Updated Django version from 2.7 to 4.0&#10;&#10;Fixed syntax errors with deprecated code from the old version of Django&#10;&#10;Updated website content to show recent accomplishments and jobs held since I last updated the website.&#10;&#10;Removed the secret key from code and hid it in an environment variable.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/groundzero/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/groundzero/templates/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/groundzero/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/groundzero/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/groundzero/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/groundzero/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mywebsite/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/mywebsite/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mywebsite/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/mywebsite/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -351,7 +339,14 @@
       <option name="project" value="LOCAL" />
       <updated>1551435738206</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Updated Django version from 2.7 to 4.0&#10;&#10;Fixed syntax errors with deprecated code from the old version of Django&#10;&#10;Updated website content to show recent accomplishments and jobs held since I last updated the website.&#10;&#10;Removed the secret key from code and hid it in an environment variable.">
+      <created>1643146660260</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1643146660260</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TodoView">
@@ -406,7 +401,8 @@
     <MESSAGE value="small text changes" />
     <MESSAGE value="Using Docker to create an image of my website to run in Kubernetes. Added the addition files needed for this.&#10;&#10;*Dockerfile&#10;*docker-compose.yml&#10;*requirements.txt" />
     <MESSAGE value="More final touches to the site. Almost ready for deployment." />
-    <option name="LAST_COMMIT_MESSAGE" value="More final touches to the site. Almost ready for deployment." />
+    <MESSAGE value="Updated Django version from 2.7 to 4.0&#10;&#10;Fixed syntax errors with deprecated code from the old version of Django&#10;&#10;Updated website content to show recent accomplishments and jobs held since I last updated the website.&#10;&#10;Removed the secret key from code and hid it in an environment variable." />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated Django version from 2.7 to 4.0&#10;&#10;Fixed syntax errors with deprecated code from the old version of Django&#10;&#10;Updated website content to show recent accomplishments and jobs held since I last updated the website.&#10;&#10;Removed the secret key from code and hid it in an environment variable." />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/groundzero/urls.py">
